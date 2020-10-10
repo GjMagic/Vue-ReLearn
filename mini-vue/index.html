@@ -23,10 +23,12 @@
       el: '#app',
       data: {
         msg: 'Hello Vue',
-        count: 100
+        count: 100,
+        person: { name: 'gongjian' }
       }
     })
     console.log(vm.msg)
+    vm.msg = { test: 'hello vue' }
   </script>
 </body>
 </html>
