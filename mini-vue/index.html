@@ -16,6 +16,8 @@
     <input type="text" v-model="msg" />
     <input type="text" v-model="count" />
   </div>
+  <script src="./js/dep.js"></script>
+  <script src="./js/watcher.js"></script>
   <script src="./js/observer.js"></script>
   <script src="./js/compiler.js"></script>
   <script src="./js/vue.js"></script>
@@ -29,7 +31,7 @@
       }
     })
     console.log(vm.msg)
-    vm.msg = { test: 'hello vue' }
+    // vm.msg = { test: 'hello vue' }
   </script>
 </body>
 </html>
